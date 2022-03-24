@@ -6,58 +6,65 @@
 ### -School performance based on the budget per student
 ### -School performance based on the school size 
 ### -School performance based on the type of school
-## The school board has found evidence of academic dishonesty in the students_complete.csv file; specifically, reading and math grades for Thomas High School ninth graders. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards. The analysis with the key metrics will be repeated with the math and reading scores for Thomas High School with ninth graders excluded. The key metrics before and after the exclusion will be compared to determine the affect of changes in the overall analysis.
+## The school board has found evidence of academic dishonesty in the students_complete.csv file; specifically, reading and math grades for Thomas High School ninth graders. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards. The analysis with the key metrics will be repeated with the math and reading scores for Thomas High School ninth graders excluded. The key metrics before and after the exclusion will be compared to determine the affect of changes in the overall analysis.
 
-# Resources
+# Resource
 ## -Data Source: schools_complete.csv and students_complete.csv, -Software: Jupyter Notebook
 
 # Summary
 ## District Summary:
-#### -Original
-# ![image](https://user-images.githubusercontent.com/99636479/159784165-0cbb7044-f79d-43b3-bbae-17094b94077b.png)
+### -The % Passing Math, % Passing Reading and % Overall Passing slightly decreased by less than 0.5%.
+#### Original
+# ![image](https://user-images.githubusercontent.com/99636479/159835260-406fde1b-1fbb-47ff-9c16-4c04feb0c6d3.png)
 
-#### -Adjusted District Summary
-# ![image](https://user-images.githubusercontent.com/99636479/159779085-ef679d19-a759-4b74-99e9-870a36bcebb3.png)
+#### Adjusted
+# ![image](https://user-images.githubusercontent.com/99636479/159835341-c36dfec5-3f06-4a9c-8682-073cd4cd03fc.png)
 
 
-## School Summary:
-#### -Original Top 5 Schools:
-# ![image](https://user-images.githubusercontent.com/99636479/159783980-3e711b15-838a-4797-a53f-0363551cffa4.png)
+## School Summary (provides top 5 and bottom 5 performing schools and school spending per student)
+### -The % Passing Math, % Passing Reading and % Overall Passing for Thomas High School slightly decreased by less than 0.5%. The top 5 and bottom 5 schools did not change nor the school spending per student.
+#### Original
+# ![image](https://user-images.githubusercontent.com/99636479/159834590-c7eedd74-7d46-491e-b5ff-d0741856e13c.png)
 
-#### -Adjusted School Summary
-# ![image](https://user-images.githubusercontent.com/99636479/159782861-add70a31-806b-44df-b21e-f314a583db77.png)
+#### Adjusted
+# ![image](https://user-images.githubusercontent.com/99636479/159834184-49791ddc-6cb5-462a-acc7-23ff3bfe8cf6.png)
 
   
 ## Math scores by grade.
-#### -Original
-# ![image](https://user-images.githubusercontent.com/99636479/159784446-142e9836-a9a1-4676-98ef-23141f2bbba9.png)
+### -The math scores shows "nan" for Thomas High School ninth graders.
+#### Original
+# ![image](https://user-images.githubusercontent.com/99636479/159834704-7dfe6da4-1ec5-4684-be9d-25a1f05d2bbf.png)
 
-#### -Adjusted
-# ![image](https://user-images.githubusercontent.com/99636479/159780906-a4ab1e57-7e7f-4c45-a1de-9148b0355562.png)
-
-  
+#### Adjusted
+# ![image](https://user-images.githubusercontent.com/99636479/159833557-6e5f8692-1bce-4db2-9a53-11cc73aee8dd.png)
+ 
+ 
 ## Reading scores by grade.
-#### -Original
-# ![image](https://user-images.githubusercontent.com/99636479/159784632-525ce9cf-34cb-447e-bd6a-cff498eea5ab.png)
+### -The reading scores shows "nan" for Thomas High School ninth graders.
+#### Original
+# ![image](https://user-images.githubusercontent.com/99636479/159834751-bfb1c805-1bda-49e0-b87e-4ad5f9644ef1.png)
 
-#### -Adjusted
-# ![image](https://user-images.githubusercontent.com/99636479/159780968-b1eeae4f-b352-48f4-838a-0356f59598b9.png)
+#### Adjusted
+# ![image](https://user-images.githubusercontent.com/99636479/159833503-9affd85c-6b48-4f30-9570-3f5720987ca3.png)
 
-## Scores by School Spending
-#### -Original
-#### -Adjusted
 
 ## Scores by School Size
-#### -Original
-# ![image](https://user-images.githubusercontent.com/99636479/159784719-5e8e2c95-94c4-48bf-92f1-9a8def1ae9e8.png)
+### There was a slight change for medium sized schools and % pass reading.
+#### Original
+# ![image](https://user-images.githubusercontent.com/99636479/159835186-cd3874e9-d95b-4a94-8631-b87fa568107c.png)
 
-#### -Adjusted
-# ![image](https://user-images.githubusercontent.com/99636479/159781218-2d91792c-04a7-425c-a5b5-83b43c5fa233.png)
+#### Adjusted
+# ![image](https://user-images.githubusercontent.com/99636479/159837442-7429f1f8-d44f-4d08-a7b1-ce1be51665dd.png)
+
 
 ## Scores by School Type
-#### -Original
-# ![image](https://user-images.githubusercontent.com/99636479/159784844-9b513436-355c-4efb-9822-4ad1bfe3a252.png)
+### There was no notable changes based on school type.
+#### Original
+# ![image](https://user-images.githubusercontent.com/99636479/159835039-a0fa7eae-2a9e-4639-802f-cef88aac35ba.png)
 
-#### -Adjusted
-# ![image](https://user-images.githubusercontent.com/99636479/159781375-bf909222-ff72-4530-b84c-5661a7592640.png)
+#### Adjusted
+# ![image](https://user-images.githubusercontent.com/99636479/159837678-b97f6d5b-4701-41a2-8d55-58f73b76e12e.png)
 
+
+## Summary Analysis
+### There were 461 student accounts math and reading scores removed from the analysis representing the ninth graders from Thomas High School. After recalculating the perecentages for passing math, reading and overall, there was a slight decrease of less than 0.5% for the district summary and Thomas High School summary.  The math and reading scores by grade changed with "nan" appearing for the Thomas High School ninth graders.  
